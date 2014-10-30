@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Month:"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/Button_sunday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button_saturday"
+        android:text="Sunday" 
+        android:onClick="firstcategory"
+        />
+
+    <Button
+        android:id="@+id/Button_monday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button_sunday"
+        android:text="Monday"
+        android:onClick="firstcategory" />
+
+    <Button
+        android:id="@+id/Button_tuesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button_monday"
+        android:text="Tuesday"
+        android:onClick="secondcategory" />
+
+    <Button
+        android:id="@+id/Button_wednesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button_tuesday"
+        android:text="Wednesday"
+        android:onClick="secondcategory" />
+
+    <Button
+        android:id="@+id/Button_thrusday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button_wednesday"
+        android:text="Thrusday" 
+        android:onClick="firstcategory"/>
+
+    <Button
+        android:id="@+id/button_saturday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView_month"
+        android:text="Saturday"
+        android:onClick="firstcategory" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Button_thrusday"
+        android:text="Student&apos;s Bus"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="Teacher&apos;s Bus"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="-" 
+         android:lines="4" />
+
+    <TextView
+        android:id="@+id/textView_teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_student"
+        android:layout_alignBottom="@+id/textView_student"
+        android:layout_alignParentRight="true"
+        android:lines="4"
+        android:text="-" />
+
+</RelativeLayout>

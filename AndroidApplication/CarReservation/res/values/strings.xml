@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CarReservation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+<string name="dept_prompt">Choose a Department</string>
+
+    <string-array name="dept_arrays">
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>ETE</item>
+        <item>ME</item>
+        <item>IPE</item>
+        <item>GCE</item>
+        <item>CE</item>
+        <item>URP</item>
+        <item>ARC</item>
+        <item>Other</item>
+    </string-array>
+    <string name="car_prompt">Choose a Car Type</string>
+
+    <string-array name="car_arrays">
+        <item>BUS</item>
+        <item>Microbus</item>
+        <item>Motorcar</item>
+        <item>Ambulance</item>
+        <item>Other</item>
+    </string-array>
+        <string name="journey_prompt">Choose a journey Purpose</string>
+
+    <string-array name="journey_arrays">
+        <item>Official</item>
+        <item>Personal</item>
+        <item>Other</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView_reservation"
+        android:layout_width="match_parent"
+        android:layout_height="708dp" >
+  <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="500dp"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            
+            
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                 android:id="@+id/textView_month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name" />
+           
+            <EditText
+                android:id="@+id/editText_applicationname"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:ems="10" >
+            </EditText>
+             <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Designation" />
+
+            <EditText
+                android:id="@+id/editText_designation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.86"
+                android:ems="10" >
+            </EditText>
+   </LinearLayout>
+   
+        
+        
+        
+        
+        
+        
+
+   
+   
+   
+   
+   
+ <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+                  
+     
+            <TextView
+                android:id="@+id/textView_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email" />
+
+            <EditText
+                android:id="@+id/editText_email"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:ems="10" >
+            </EditText>
+             </LinearLayout>
+             
+ 
+ 
+ 
+ 
+ 
+             <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/textview_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone No" /> 
+
+                   <EditText
+                       android:id="@+id/editText_phone"
+                       android:layout_width="264dp"
+                       android:layout_height="wrap_content"
+                       android:ems="10"
+                       android:inputType="numberDecimal" >
+
+            </EditText>
+         </LinearLayout>    
+              
+             
+             
+             
+             
+             
+       <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >      
+            <TextView
+                android:id="@+id/textView_dept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dept/Sec" /> 
+                
+            <Spinner
+        android:id="@+id/spinner_deptsec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/dept_arrays"
+        android:prompt="@string/dept_prompt" />
+            
+           </LinearLayout>     
+            
+       
+       
+       
+       
+       
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" > 
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reservation Date " />
+
+ <EditText
+     android:id="@+id/editText_reseve_date"
+     android:layout_width="128dp"
+     android:layout_height="wrap_content"
+     android:editable="false"
+     android:ems="10"
+     android:onClick="showTimeDialog_reservation_date" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reservation Time " />
+                
+                      <EditText
+                android:id="@+id/editText_reseve_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.86"
+                android:ems="10"
+                android:editable="false"
+                android:onClick="showTimeDialog_reservation_time" >
+            </EditText>
+
+                     
+
+            </LinearLayout>
+            
+            
+            
+            
+             
+            
+            
+               
+               
+            
+            
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" > 
+                <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Return Date " />
+
+                 <EditText
+                     android:id="@+id/editText_return_date"
+                     android:layout_width="160dp"
+                     android:layout_height="wrap_content"
+                     android:editable="false"
+                     android:ems="10"
+                     android:onClick="showTimeDialog_return_date" />
+                 <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Return Time " /> 
+                
+                 <EditText
+                android:id="@+id/editText_return_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.86"
+                android:ems="10"
+                android:editable="false"
+                android:onClick="showTimeDialog_return_time" >
+                </EditText>
+
+
+                </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" > 
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type of Car" />
+
+            <Spinner
+                android:id="@+id/spinner_typeofcar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:entries="@array/car_arrays"
+                android:prompt="@string/car_prompt" />
+            
+            </LinearLayout>
+            
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="39dp"
+                 android:orientation="horizontal" >
+
+              <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Journey Purpose" /> 
+             <Spinner
+        android:id="@+id/spinner_journeypurpose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/journey_arrays"
+        android:prompt="@string/journey_prompt" /> 
+                 
+            </LinearLayout>
+            
+             
+             
+             
+             
+            
+             <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+             <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Journey Place " />
+
+            <EditText
+                android:id="@+id/editText_startjourneyplace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.86"
+                android:ems="10" >
+            </EditText>
+                 
+            </LinearLayout>
+            
+             
+             
+             
+             
+             <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+                  <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Destination Place " />
+
+            <EditText
+                android:id="@+id/editText_destinationplace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.86"
+                android:ems="10" >
+                 </EditText> 
+            </LinearLayout>
+
+             <Button
+                 android:id="@+id/btnreserve"
+                 android:layout_width="277dp"
+                 android:layout_height="wrap_content"
+                 android:onClick="buttonaction_insert"
+                 android:text="Reserve" />
+             
+        </LinearLayout>
+        
+        </LinearLayout>
+    </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>
