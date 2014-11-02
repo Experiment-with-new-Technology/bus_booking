@@ -208,7 +208,7 @@ session_start();
 
 
 
-<div class="footer-left">&copy; Copyright 2014 © All rights reserved, RUET. Designed by @ Tanjila Parvin Tomby, CSE-103044, RUET</a>
+<div class="footer-left">&copy; Copyright 2014 © All rights reserved, RUET. Designed by @ Rakib Hasan, CSE-093004, RUET</a>
 
 </div>
 </div>
